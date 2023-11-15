@@ -65,7 +65,7 @@ nav #icon {
     display: none;
 }
 section {
-    background: url("/img/budin.png") no-repeat;
+    background: url("../img/budin.png") no-repeat;
     background-size: cover;
     height: 100vh;
 }
@@ -160,7 +160,7 @@ main{
     width: 42vw;
     height: 70vh;
     overflow: auto;
-    background-image: url(/img/divChocolate1.jpeg);
+    background-image: url(../img/divChocolate1.jpeg);
     background-size: cover;
     
 }
@@ -179,7 +179,7 @@ main{
     width: 42vw;
     height: 70vh;
     overflow: auto;
-    background-image: url(/img/divChocolate2.jpeg);
+    background-image: url(../img/divChocolate2.jpeg);
     background-size: cover;
     display: flex;
     flex-direction: column;
