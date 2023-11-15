@@ -332,7 +332,7 @@ form > button:hover,
     }
 }
 
-@media (max-width: 924px) {
+@media (max-width: 500px) {
     /*Header*/
     nav #icon {
         display: block;
@@ -380,6 +380,7 @@ form > button:hover,
         background-color: red;
         font-family: 'calibri';
         overflow: none;
+        display: inline-block;
     }
     
     /*Main*/

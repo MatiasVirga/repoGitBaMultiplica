@@ -450,14 +450,15 @@ footer a:hover {
     }
 }
 
-@media (max-width: 924px) {
+@media (max-width: 500px) {
     /*Header*/
     nav #icon {
         display: block;
+        
     }
     body{
-        overflow-x: hidden;
         height: 100%;
+        display: inline-block;
     }
     .show {
         position: fixed;
@@ -478,6 +479,7 @@ footer a:hover {
         display: block;
         margin: 50px 0px;
         line-height: 10px;
+        
     }
 
     nav .a{
