@@ -92,10 +92,11 @@ main{
     text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
     background: url("https://codetheworld.io/wp-content/uploads/2023/11/rNPwjWM-animated-text-fill.png") repeat-y;
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
-    animation: anim 80s linear infinite
+    animation: anim 80s linear infinite;
 }
-@-webkit-keyframes anim {
+@keyframes anim {
     0%{
         background-position: 0% 50%;
     }  
@@ -440,6 +441,7 @@ form > button:hover,
         text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
         background: url("https://codetheworld.io/wp-content/uploads/2023/11/rNPwjWM-animated-text-fill.png") repeat-y;
         -webkit-background-clip: text;
+        background-clip: text;
         -webkit-text-fill-color: transparent;
         animation: anim 80s linear infinite;
         margin-left: 120px;
